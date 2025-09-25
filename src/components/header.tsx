@@ -18,6 +18,7 @@ const navItems = [
   { href: '/quiz', label: 'Aptitude Quiz' },
   { href: '/courses', label: 'Courses' },
   { href: '/colleges', label: 'Colleges' },
+  { href: '/study-abroad', label: 'Study Abroad' },
   { href: '/timeline', label: 'Timeline' },
 ];
 

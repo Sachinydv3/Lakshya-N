@@ -41,6 +41,30 @@
       "description": "A college building with classic brick architecture and green lawns.",
       "imageUrl": "https://images.unsplash.com/photo-1706906512779-896f5918f09f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xhc3NpYyUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NTg2OTkxMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "classic architecture"
+    },
+    {
+      "id": "country-usa",
+      "description": "New York City skyline with the Statue of Liberty.",
+      "imageUrl": "https://images.unsplash.com/photo-1631116615407-bc27638e6b0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmV3LXlvcmslMjBjaXR5fGVufDB8fHx8MTc1ODc5MTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "new-york city"
+    },
+    {
+      "id": "country-uk",
+      "description": "The iconic Big Ben and Houses of Parliament in London.",
+      "imageUrl": "https://images.unsplash.com/photo-1705483692182-9bd1e105f57e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsb25kb24lMjBsYW5kbWFya3xlbnwwfHx8fDE3NTg3OTE2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "london landmark"
+    },
+    {
+      "id": "country-canada",
+      "description": "A serene lake in the Canadian Rockies.",
+      "imageUrl": "https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW5hZGElMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4NzkxNjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "canada landscape"
+    },
+    {
+      "id": "country-australia",
+      "description": "The Sydney Opera House at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1523428096881-5bd79d043006?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzeWRuZXklMjBsYW5kbWFya3xlbnwwfHx8fDE3NTg3OTE2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sydney landmark"
     }
   ]
 }

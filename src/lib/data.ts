@@ -166,3 +166,56 @@ export const timelineEvents: TimelineEvent[] = [
         description: 'Check college websites for the first round of admission cut-offs and merit lists.'
     }
 ];
+
+export interface StudyAbroadCountry {
+  name: string;
+  description: string;
+  image: string;
+  facts: {
+    title: string;
+    value: string;
+  }[];
+}
+
+export const studyAbroadCountries: StudyAbroadCountry[] = [
+  {
+    name: 'USA',
+    description: 'Home to Ivy League universities, offering diverse programs and a vibrant campus life.',
+    image: 'country-usa',
+    facts: [
+      { title: 'Popular Courses', value: 'Computer Science, MBA, Engineering' },
+      { title: 'Avg. Tuition Fee', value: '$25,000 - $55,000 / year' },
+      { title: 'Top Exams', value: 'GRE, GMAT, TOEFL, IELTS' },
+    ],
+  },
+  {
+    name: 'United Kingdom',
+    description: 'Renowned for its historic universities, quality research, and shorter course durations.',
+    image: 'country-uk',
+    facts: [
+      { title: 'Popular Courses', value: 'Business, Law, Medicine, Arts' },
+      { title: 'Avg. Tuition Fee', value: '£15,000 - £30,000 / year' },
+      { title: 'Top Exams', value: 'IELTS, TOEFL' },
+    ],
+  },
+  {
+    name: 'Canada',
+    description: 'Known for its high quality of life, affordable education, and welcoming immigration policies.',
+    image: 'country-canada',
+    facts: [
+      { title: 'Popular Courses', value: 'IT, Business, Health Sciences' },
+      { title: 'Avg. Tuition Fee', value: 'C$20,000 - C$40,000 / year' },
+      { title: 'Top Exams', value: 'IELTS, TOEFL, PTE' },
+    ],
+  },
+    {
+    name: 'Australia',
+    description: 'Offers a world-class education system with a focus on practical experience and research.',
+    image: 'country-australia',
+    facts: [
+      { title: 'Popular Courses', value: 'IT, Engineering, Hospitality' },
+      { title: 'Avg. Tuition Fee', value: 'A$25,000 - A$45,000 / year' },
+      { title: 'Top Exams', value: 'IELTS, TOEFL, PTE' },
+    ],
+  },
+];
