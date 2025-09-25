@@ -1,4 +1,4 @@
-import { BookOpen, Briefcase, Calculator, FlaskConical, LucideIcon } from "lucide-react";
+import { BookOpen, Briefcase, Calculator, FlaskConical, LucideIcon, Award, Star, CheckCircle, Download, FileText, GitCompare } from "lucide-react";
 
 export interface Course {
     name: string;
@@ -48,9 +48,16 @@ export interface College {
     id: number;
     name: string;
     city: string;
-    programs: string[];
+    state: string;
+    rating: number;
+    reviews: number;
+    ranking: string;
+    approvals: string[];
+    description: string;
+    programs: { name: string; fee: string }[];
     facilities: string[];
     image: string;
+    featured?: boolean;
 }
 
 export const colleges: College[] = [
@@ -58,35 +65,73 @@ export const colleges: College[] = [
         id: 1,
         name: 'City Govt. Degree College',
         city: 'Metropolis',
-        programs: ['B.A. (History, English)', 'B.Sc. (Physics, Chemistry)', 'B.Com.'],
-        facilities: ['Library', 'Hostel', 'Wi-Fi'],
-        image: 'college-1'
+        state: 'State A',
+        rating: 8.5,
+        reviews: 215,
+        ranking: '#15 in Metropolis',
+        approvals: ['AICTE', 'UGC'],
+        description: 'A premier institution known for its excellent faculty and state-of-the-art infrastructure in the heart of the city.',
+        programs: [
+            { name: 'B.Sc. (Physics)', fee: '₹25,000' },
+            { name: 'B.A. (History)', fee: '₹18,000' },
+        ],
+        facilities: ['Library', 'Hostel', 'Wi-Fi', 'Labs'],
+        image: 'college-1',
+        featured: true,
     },
     {
         id: 2,
         name: 'State Science & Arts College',
         city: 'Capital City',
-        programs: ['B.A. (Sociology)', 'B.Sc. (Biology, Math)', 'BBA'],
-        facilities: ['Library', 'Wi-Fi'],
+        state: 'State B',
+        rating: 9.1,
+        reviews: 350,
+        ranking: '#5 in State B for Arts',
+        approvals: ['NAAC', 'UGC'],
+        description: 'Renowned for its contribution to arts and science, with a legacy of producing top scholars.',
+        programs: [
+            { name: 'B.Sc. (Biology)', fee: '₹30,000' },
+            { name: 'BBA', fee: '₹45,000' },
+        ],
+        facilities: ['Library', 'Wi-Fi', 'Sports Complex'],
         image: 'college-2'
     },
     {
         id: 3,
         name: 'Regional College of Commerce',
         city: 'Townsville',
-        programs: ['B.Com. (Honours)', 'B.A. (Economics)', 'BBA'],
-        facilities: ['Hostel', 'Library'],
+        state: 'State C',
+        rating: 8.2,
+        reviews: 180,
+        ranking: '#1 in Townsville for Commerce',
+        approvals: ['UGC'],
+        description: 'A leading college for commerce education, fostering future business leaders and entrepreneurs.',
+        programs: [
+            { name: 'B.Com. (Honours)', fee: '₹50,000' },
+            { name: 'B.A. (Economics)', fee: '₹22,000' },
+        ],
+        facilities: ['Hostel', 'Library', 'Auditorium'],
         image: 'college-3'
     },
     {
         id: 4,
         name: 'District College for Women',
         city: 'Metropolis',
-        programs: ['B.A. (Psychology)', 'B.Sc. (Home Science)'],
-        facilities: ['Hostel', 'Library', 'Wi-Fi'],
+        state: 'State A',
+        rating: 8.8,
+        reviews: 150,
+        ranking: '#20 in Metropolis',
+        approvals: ['UGC'],
+        description: 'Empowering women through quality education with a focus on holistic development.',
+        programs: [
+            { name: 'B.A. (Psychology)', fee: '₹20,000' },
+            { name: 'B.Sc. (Home Science)', fee: '₹24,000' },
+        ],
+        facilities: ['Hostel', 'Library', 'Wi-Fi', 'Gym'],
         image: 'college-1'
     }
 ];
+
 
 export interface TimelineEvent {
     date: string;
