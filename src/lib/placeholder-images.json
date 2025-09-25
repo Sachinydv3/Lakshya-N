@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-student-1",
-      "description": "A group of happy and diverse students looking at the camera.",
-      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50c3xlbnwwfHx8fDE3NTg5NzM1MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "happy students"
+      "description": "A student looking thoughtfully towards their future.",
+      "imageUrl": "https://images.unsplash.com/photo-1758270703878-de80505b6714?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudCUyMGZ1dHVyZXxlbnwwfHx8fDE3NTg2OTQzNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student future"
     },
     {
       "id": "feature-quiz",
