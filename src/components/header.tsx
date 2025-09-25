@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { GraduationCap, UserCircle, Menu, X } from 'lucide-react';
+import { GraduationCap, UserCircle, Menu, Bot } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
 import {
@@ -20,6 +20,7 @@ const navItems = [
   { href: '/colleges', label: 'Colleges' },
   { href: '/study-abroad', label: 'Study Abroad' },
   { href: '/timeline', label: 'Timeline' },
+  { href: '/chatbot', label: 'AI Chatbot', icon: <Bot className="mr-2 h-5 w-5"/>, isPrimary: true },
 ];
 
 export function Header() {
@@ -36,8 +37,8 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
-          {navItems.map((item) => (
+        <nav className="hidden items-center gap-4 md:flex">
+          {navItems.filter(item => !item.isPrimary).map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -53,7 +54,15 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          {navItems.filter(item => item.isPrimary).map(item => (
+            <Link key={item.href} href={item.href} className='hidden md:flex'>
+              <Button variant="default" className='bg-accent text-accent-foreground hover:bg-accent/90'>
+                {item.icon}
+                {item.label}
+              </Button>
+            </Link>
+          ))}
            <Button variant="ghost" size="icon">
               <UserCircle className="h-6 w-6" />
               <span className="sr-only">User Profile</span>
@@ -83,12 +92,14 @@ export function Header() {
                       href={item.href}
                       onClick={() => setIsMobileMenuOpen(false)}
                       className={cn(
-                        'text-lg font-medium transition-colors hover:text-primary',
+                        'text-lg font-medium transition-colors hover:text-primary flex items-center',
                         pathname === item.href
                           ? 'text-primary'
-                          : 'text-muted-foreground'
+                          : 'text-muted-foreground',
+                        item.isPrimary && 'text-accent-foreground bg-accent p-2 rounded-md'
                       )}
                     >
+                      {item.icon}
                       {item.label}
                     </Link>
                   ))}
