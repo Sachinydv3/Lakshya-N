@@ -5,7 +5,7 @@ import { Footer } from '@/components/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'EduNav - Your Personal Career Guide',
+  title: 'Lakshya - Your Personal Career Guide',
   description:
     'A one-stop personalized career and education advisor for students.',
 };

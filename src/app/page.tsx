@@ -17,10 +17,10 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6">
           <div className="space-y-6">
             <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-5xl lg:text-6xl">
-              Find Your Future with EduNav
+              Find Your Future with Lakshya
             </h1>
             <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
-              Confused about your career path after school? EduNav is your
+              Confused about your career path after school? Lakshya is your
               personal guide to discovering the right courses, colleges, and
               career opportunities that match your passion.
             </p>
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">
-              How EduNav Helps You Succeed
+              How Lakshya Helps You Succeed
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
               We provide the tools and insights you need to make confident
