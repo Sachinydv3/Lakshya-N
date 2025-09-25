@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-student-1",
+      "description": "A student looking thoughtfully into the distance, contemplating their future.",
+      "imageUrl": "https://images.unsplash.com/photo-1629001528534-e8a48b636ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50JTIwdGhpbmtpbmd8ZW58MHx8fHwxNzU4NzkwNzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student thinking"
+    },
+    {
+      "id": "feature-quiz",
+      "description": "A person taking a quiz on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1564207550505-5135c0fe4e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWl6JTIwdGVzdHxlbnwwfHx8fDE3NTg3MjUwMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quiz test"
+    },
+    {
+      "id": "feature-courses",
+      "description": "A well-organized library with shelves full of books.",
+      "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rcyUyMGxpYnJhcnl8ZW58MHx8fHwxNzU4NjkwNDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "books library"
+    },
+    {
+      "id": "feature-colleges",
+      "description": "A sunny view of a modern college campus building.",
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xsZWdlJTIwY2FtcHVzfGVufDB8fHx8MTc1ODc4OTEwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "college campus"
+    },
+    {
+      "id": "college-1",
+      "description": "A grand university building with a classic architectural style.",
+      "imageUrl": "https://images.unsplash.com/photo-1559135197-8a45ea74d367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwYnVpbGRpbmd8ZW58MHx8fHwxNzU4NzMxOTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university building"
+    },
+    {
+      "id": "college-2",
+      "description": "A modern college building with glass facades.",
+      "imageUrl": "https://images.unsplash.com/photo-1546349851-64285be8e9fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzU4NzI1ODYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "college-3",
+      "description": "A college building with classic brick architecture and green lawns.",
+      "imageUrl": "https://images.unsplash.com/photo-1706906512779-896f5918f09f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xhc3NpYyUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3NTg2OTkxMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classic architecture"
+    }
+  ]
 }
