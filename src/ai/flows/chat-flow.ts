@@ -9,7 +9,7 @@
  */
 
 import { ai } from '@/ai/genkit';
-import { z } from 'genkit';
+import { z } from 'zod';
 
 const ChatInputSchema = z.object({
   message: z.string().describe('The user\'s message to the chatbot.'),
@@ -32,6 +32,7 @@ const prompt = ai.definePrompt({
   prompt: `You are Lakshya, a friendly and knowledgeable career and education counselor. Your goal is to help students explore their options after school. Be encouraging, helpful, and provide clear, concise information.
 
   Format your answers in clear, numbered steps or bullet points instead of long paragraphs to make them easy to follow.
+  Use relevant emojis to make the response more engaging.
 
   User message: {{{message}}}
 
