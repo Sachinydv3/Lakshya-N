@@ -37,30 +37,30 @@ Integrated modules offering free e-books, study materials, and skill-building co
 ## 🏛️ System Architecture
 
 - ** 1.⁠ ⁠User Interface Layer
-	•	React / React Native App:
+	**•	React / React Native App:
 Students access the platform via a mobile or web app built using React or React Native, ensuring a responsive and intuitive user experience.
 - ** 2.⁠ ⁠API Layer
-	•	GraphQL API (Apollo):
+	**•	GraphQL API (Apollo):
 Serves as the interface between frontend clients and backend services, delivering targeted data queries with efficiency and flexibility.
-	•	API Gateway (NGINX/Kong):
+	**•	API Gateway (NGINX/Kong):
 Acts as a secure router and traffic manager controlling API requests, providing authentication, load balancing, and logging.
 -  ** 3.⁠ ⁠Backend Services Layer
-	•	Conversational AI Service (Python/FastAPI):
+	**•	Conversational AI Service (Python/FastAPI):
 Orchestrates interactions such as quiz administration, handling user inputs, and processing AI-generated advice.
-	•	Large Language Models (LLM - Gemini/GPT-4 with RAG):
+	**•	Large Language Models (LLM - Gemini/GPT-4 with RAG):
 Power intelligent, context-aware guidance and content generation through advanced AI models using Retrieval-Augmented Generation.
 - **4.⁠ ⁠Data Layer
-	•	Feature Store (Feast):
+	**•	Feature Store (Feast):
 Manages and serves features such as user assessment data and preferences for AI model consumption and personalized recommendations.
-	•	Knowledge Graph (Neo4j):
+	**•	Knowledge Graph (Neo4j):
 Stores relational information about courses, careers, colleges, timelines, and eligibility, enabling complex queries to map pathways and options.
-	•	Relational Database (PostgreSQL):
+	**•	Relational Database (PostgreSQL):
 Persistent storage for user profiles, college directories, quiz results, and app configuration.
 - ** 5.⁠ ⁠Messaging and Analytics Layer
-	•	Apache Kafka (Message Bus):
+	**•	Apache Kafka (Message Bus):
 Facilitates real-time event streaming for activities like quiz completions and notifications, enabling analytics and monitoring to improve user engagement and system performance.
 Data Flow and Integration
-	•	Users interact with the app, which sends requests via the GraphQL API.
-	•	The API Gateway routes these requests to the backend FastAPI service, which coordinates data retrieval from PostgreSQL and Neo4j, and invokes LLM services for conversational assistance and personalized recommendations.
-	•	User feature data is managed by Feast, supporting AI-driven decisions.
-	•	Kafka streams events and usage data for monitoring and feedback loops that refine the platform continuously.
+	**•	Users interact with the app, which sends requests via the GraphQL API.
+	**•	The API Gateway routes these requests to the backend FastAPI service, which coordinates data retrieval from PostgreSQL and Neo4j, and invokes LLM services for conversational assistance and personalized recommendations.
+	**•	User feature data is managed by Feast, supporting AI-driven decisions.
+	**•	Kafka streams events and usage data for monitoring and feedback loops that refine the platform continuously.
