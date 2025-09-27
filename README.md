@@ -7,10 +7,10 @@ To get started, take a look at src/app/page.tsx.
 
 | Setup Page | Live Dashboard (Attendance Active) |
 | :---: | :---: |
-| *Select a scheduled class to begin the session.* | *Real-time recognition with session log.* |
+| *This is dashbord of lakshya N* | *Real-time recognition with session log.* |
 |![Deepak Image](./docs/Reference_Image/Image1.jpeg) | ![Deepak Image](./docs/Reference_Image/Image2.jpeg)  |
 
-| Live Dashboard (Another User) | Live Dashboard (Session Ended) |
+| Chat bot for careear guideance | dfdfa |
 | :---: | :---: |
 | ![Deepak Image](./docs/Reference_Image/image5.jpeg)  | ![Deepak Image](./docs/Reference_Image/Image4.jpeg) |
 
