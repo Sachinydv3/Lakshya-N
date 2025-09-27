@@ -2,6 +2,9 @@
 
 
 To get started, take a look at src/app/page.tsx.
+## Discription
+This platform’s uniqueness lies in its end-to-end personalization for students, its ability to map courses to careers with clear visual charts, location-based college listings, timeline tracking for admissions, and AI-driven recommendations. These features are designed to directly address the awareness and decision-making gaps that lead to poor enrollment in government degree colleges, offering an innovative, holistic support system not commonly available through typical career guidance resources or portals
+    
 
 ## 🖼️ Screenshots
 
@@ -64,3 +67,6 @@ Data Flow and Integration
   - **•	The API Gateway routes these requests to the backend FastAPI service, which coordinates data retrieval from PostgreSQL and Neo4j, and invokes LLM services for conversational assistance and personalized recommendations.
   - **•	User feature data is managed by Feast, supporting AI-driven decisions.
   - **•	Kafka streams events and usage data for monitoring and feedback loops that refine the platform continuously.
+
+
+
