@@ -14,13 +14,13 @@ To get started, take a look at src/app/page.tsx.
 | :---: | :---: |
 | ![Deepak Image](./docs/Reference_Image/image5.jpeg)  | ![Deepak Image](./docs/Reference_Image/Image4.jpeg) |
 
-## ✨ Key Features
-##Key Features of the Platform
-- **•	Aptitude & Interest Assessments
+## ✨ Key Features of the Platform
+
+•	Aptitude & Interest Assessments
 The app will offer interest and aptitude quizzes developed in collaboration with educators and psychologists. These assessments uncover each student’s strengths, learning preferences, and motivations, generating personalized stream and subject recommendations (e.g., Arts, Commerce, Science, Vocational).
-- **	•	Course-to-Career Path Mapping
+•	Course-to-Career Path Mapping
 Interactive visual charts will map each major degree (e.g., B.A., B.Sc., B.Com., BBA) to potential career outcomes, including government jobs, private sector roles, entrepreneurship, and higher studies. This “roadmap” approach will make post-college trajectories visible and relatable for students and parents, reducing fear and uncertainty.
-- **	•	Nearby College Directory
+•	Nearby College Directory
 A geolocation-based guide will list government colleges in and around the student’s locality, with details such as available courses, eligibility criteria, medium of instruction, facilities, and recent cut-offs. This removes ambiguity about local options and encourages students to consider accessible, affordable institutions.
 - **	•	Timeline Tracker
 A built-in calendar and notification tool will alert students of key dates for admissions, entrance exams, scholarship applications, and counseling sessions. This timely information prevents missed opportunities and last-minute rushes.
