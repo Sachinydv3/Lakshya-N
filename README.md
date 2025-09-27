@@ -50,17 +50,17 @@ Orchestrates interactions such as quiz administration, handling user inputs, and
   - •	Large Language Models (LLM - Gemini/GPT-4 with RAG):
 Power intelligent, context-aware guidance and content generation through advanced AI models using Retrieval-Augmented Generation.
 - **4.⁠ ⁠Data Layer
-  -**•	Feature Store (Feast):
+  - **•	Feature Store (Feast):
 Manages and serves features such as user assessment data and preferences for AI model consumption and personalized recommendations.
-  -**•	Knowledge Graph (Neo4j):
+  - **•	Knowledge Graph (Neo4j):
 Stores relational information about courses, careers, colleges, timelines, and eligibility, enabling complex queries to map pathways and options.
   -**•	Relational Database (PostgreSQL):
 Persistent storage for user profiles, college directories, quiz results, and app configuration.
 - ** 5.⁠ ⁠Messaging and Analytics Layer
-  -•	Apache Kafka (Message Bus):
+  - **•	Apache Kafka (Message Bus):
 Facilitates real-time event streaming for activities like quiz completions and notifications, enabling analytics and monitoring to improve user engagement and system performance.
 Data Flow and Integration
-  -**•	Users interact with the app, which sends requests via the GraphQL API.
-  -**•	The API Gateway routes these requests to the backend FastAPI service, which coordinates data retrieval from PostgreSQL and Neo4j, and invokes LLM services for conversational assistance and personalized recommendations.
-  -**•	User feature data is managed by Feast, supporting AI-driven decisions.
-  -**•	Kafka streams events and usage data for monitoring and feedback loops that refine the platform continuously.
+  - **•	Users interact with the app, which sends requests via the GraphQL API.
+  - **•	The API Gateway routes these requests to the backend FastAPI service, which coordinates data retrieval from PostgreSQL and Neo4j, and invokes LLM services for conversational assistance and personalized recommendations.
+  - **•	User feature data is managed by Feast, supporting AI-driven decisions.
+  - **•	Kafka streams events and usage data for monitoring and feedback loops that refine the platform continuously.
