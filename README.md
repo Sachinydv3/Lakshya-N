@@ -12,5 +12,5 @@ To get started, take a look at src/app/page.tsx.
 
 | Live Dashboard (Another User) | Live Dashboard (Session Ended) |
 | :---: | :---: |
-| ![Deepak Image](./docs/Reference_Image/Image5.jpeg)  | ![Deepak Image](./docs/Reference_Image/Image4.jpeg) |
+| ![Deepak Image](./docs/Reference_Image/image5.jpeg)  | ![Deepak Image](./docs/Reference_Image/Image4.jpeg) |
 
